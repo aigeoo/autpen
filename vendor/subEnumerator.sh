@@ -38,7 +38,7 @@ then
 	cat subdomains*.txt | grep -i $target | sort -u | uniq > allSubdomain_$target.txt
 	echo "[+] Domains found: "$(cat allSubdomain_$target.txt | wc -l)
 	echo "[+] Tool finished getting all subdomains"
-	alldomains=finaldomains.txt
+	alldomains=allSubdomain_$target.txt
 	rm -rf subdomains*.txt
 else
 	alldomains=$2
