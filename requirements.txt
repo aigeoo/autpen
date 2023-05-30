@@ -9,6 +9,6 @@ networkx==3.1
 pydantic==1.10.7
 pymongo==4.3.3
 python-dotenv==1.0.0
-Requests==2.30.0
+Requests==2.31.0
 setuptools==65.5.1
 win_unicode_console==0.5
